@@ -1,0 +1,59 @@
+body {
+  background-color: lemonchiffon;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #00acee;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navigationButtons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #0082ee;
+  color: aqua;
+  height: 45px;
+  width: 148px;
+  margin: 10px;
+  font-size: medium;
+}
+
+textarea {
+  height: 50px;
+  width: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+.modifyMessage {
+  position: absolute;
+}
+
+.modalAlert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  opacity: 0.8;
+  top: 0;
+  right: 100%;
+  transform: translateX(100%);
+  background-color: greenyellow;
+  color: blue;
+  font-size: medium;
+  height: 150px;
+  width: 350px;
+}
